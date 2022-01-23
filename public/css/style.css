@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9C835F !important;
+}
+
+.header {
+    display: flex;
+    padding: 2rem;
+}
+
+.home_button {
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+}
+
+.game_logo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.game_title {
+    padding-top: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+}
+
+.game_area {
+    padding-top: 4rem;
+}
+
+.title_player {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #000000;
+}
+
+.versus {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #BD0000;
+}
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#result-wrapper {
+    width: 271.11px;
+    height: 166.93px;
+    left: 561px;
+    top: 489.89px;
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    z-index: 200;
+    display: none !important;
+}
+
+.batu {
+    width: 128px;
+    height: 92px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    z-index: 1000;
+    position: relative;
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.rockCom {
+    outline: none;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    position: relative;
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 30px;
+    width: 180px;
+    height: 170px;
+}
+
+.kertas {
+    width: 115px;
+    height: 150px;
+    left: 382px;
+    top: 267px;
+}
+
+.paperCom {
+    outline: none;
+    border: none;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    position: relative;
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 30px;
+    width: 180px;
+    height: 170px;
+}
+
+.gunting {
+    width: 134px;
+    height: 160px;
+    left: 369px;
+    top: 671px;
+}
+
+.scissorsCom {
+    outline: none;
+    border: none;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    position: relative;
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 30px;
+    width: 180px;
+    height: 170px;
+}
+
+.refresh {
+    width: 77px;
+    height: 71px;
+    left: 681px;
+    top: 843px;
+}
+
+.refresh-button {
+    outline: none;
+    border: none;
+    background-color: #9C835F;
+    margin-bottom: 2rem;
+}

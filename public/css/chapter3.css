@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-page {
+    background-image: url(../images/main-bg.jpeg);
+    background-size: cover;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+nav > ul li {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:white;
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_default {
+    width: 77px;
+    height: 33px;
+    left: 107px;
+    right: 142px;
+    top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+.nav_register li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 230px;
+}
+
+.title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.playnow_button {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 75px;
+    padding: 20px 90px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(253,180,68);
+    text-decoration: none;
+}
+
+.the-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 1px;
+    border-color: blue;
+    margin-top: 285px;
+}
+
+.story-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+.second-page {
+    background-image: url(../images/the-games-bg.jpg) ;
+    background-size: cover;
+    padding: 30vw 10vh;
+    margin: 0;
+}
+
+.second-page::before {
+    content: '';
+    position: absolute;
+    /* bottom: 0; */
+    top: 53.5rem;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, black, transparent);
+    z-index: 1;
+}
+
+.specialty {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.rock-paper-strategy {
+    width: 760px;
+    height: 420px;
+    margin-left: 453px;
+    margin-top: -70px;
+    margin-bottom: 282px;
+}
+.the-games {
+    margin-top: 13.5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.third-page {
+    background-image: url(../images/features.jpg);
+    background-size: cover;
+    height: 120vh;
+    padding: 25vh 15vw;
+}
+
+.third-page::before {
+content: '';
+position: absolute;
+top: 132.5rem;
+left: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(to top, black, transparent);
+z-index: 1;
+}
+
+.specialty-2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size:  2rem;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.feature-title {
+    padding-top: 9px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.features {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.feature-sentence {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.specialty-2, .feature-title {
+    z-index: 100;
+}
+
+.circle-timeline {
+    z-index: 400;
+}
+
+.features, .feature-sentence {
+    z-index: 200;
+}
+
+.fourth-page {
+    background-image: url(../images/requirements.png);
+    background-size: cover;
+    height: 120vh;
+}
+
+.fourth-page::before {
+content: '';
+position: absolute;
+top: 190rem;
+left: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(to top, black, transparent);
+z-index: 1;
+}
+
+.navbar {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.nav-left-container {
+    width: 10vw;
+    border: white;
+}
+
+.second-page-text-container {
+    border: white 1;
+}
+
+.fifth-page-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+
+}
+
+.system-requirements {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 4rem;
+    margin-left: 10rem;
+
+}
+
+.grid-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+
+}
+
+.grid-content {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.fourth-page-grid {
+    max-width: 32rem;
+    max-height: auto;
+    margin-left: 10rem;
+    margin-top: 0;
+}
+
+.fifth-page {
+    background: black;
+    background-size: cover;
+    height: 120vh;
+    
+}
+
+.fifth-page::before {
+content: '';
+position: absolute;
+top: 248rem;
+left: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(to top, black, transparent);
+z-index: 1;
+}
+
+.fifth-page-info {
+    margin-top: 1rem;
+}
+
+.see-more-button {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.fifth-page-title-main {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.fifth-page-content-right {
+    flex: 1;
+}
+
+.card-layout {
+    width: 28rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-1, .card-3 {
+    margin-left: 18rem;
+}
+
+.card-content-comment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.card-content-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.profile-card {
+    z-index: 0;
+}
+
+.profile-name {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    margin:0;
+}
+
+.profile-job {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: justify;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0;
+ }
+
+ .rounded-circle-image {
+     width: 4.1rem;
+     height: 4.1rem;
+ }
+
+.rounded-circle-ellipse {
+    position: absolute;
+    left: 1.7rem;
+    top: 1.2rem;
+    z-index: -1;
+}
+
+.fifth-page-content-left {
+    padding-left: 8rem;
+}
+
+.fifth-page-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.sixth-page {
+    background-color: black;
+    height: 113vh;
+}
+
+.sixth-page-image {
+    margin-right: 6rem;
+    padding-left: 10rem
+}
+.sixth-page-info {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.sixth-page-title-main {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sixth-page-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.page-footer-copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.sixth-page-info-2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+}
+
+.page-footer-info {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 30rem;
+}
+
+.sixth-page-info-left {
+    margin-right: 6rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.info-button {
+    text-decoration: none;
+    color: white;
+}
+
+::placeholder {
+    color: #FFB548;
+}
+
+.email-input {
+    background-color: rgba(255, 255, 255, 0.08);
+    width: 20rem;
+    height: 3rem;
+}
+
+.subscribe-button {
+    width: 15rem;
+    height: 3rem;
+
+}
+
+.game-carousel {
+    width: 50rem;
+}
+
+.feature-timeline {
+    margin-bottom: -0.7rem;
+}
